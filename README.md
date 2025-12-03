@@ -370,10 +370,24 @@ Developed to solve a widespread ComfyUI frontend issue affecting all users.
 - Stack trace analysis in ComfyUI's minified frontend bundle
 - Solution developed through iterative testing
 
+**Sources & References:**
+- [ComfyUI Frontend Repository](https://github.com/Comfy-Org/ComfyUI_frontend) - Official ComfyUI frontend source code
+- [Vue.js Error Handling Guide](https://vuejs.org/guide/best-practices/production-deployment.html#tracking-runtime-errors) - Vue error handling patterns
+- [Vue.js Provide/Inject Documentation](https://vuejs.org/guide/components/provide-inject.html) - Understanding why $variant is undefined in isolated render contexts
+- [PrimeVue Theme Configuration](https://primevue.org/theming/) - Documentation on $variant and theme configuration
+- [MDN: MutationObserver API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) - DOM mutation detection for toast suppression
+- [MDN: Console API](https://developer.mozilla.org/en-US/docs/Web/API/Console) - Understanding console.error patching
+- [ComfyUI Custom Node Development](https://docs.comfy.org/essentials/custom_node_server) - Custom node architecture and web extension loading
+
+**Community Discussion:**
+- Multiple users reporting this error across ComfyUI Discord, Reddit, and GitHub issues
+- Error affects all nodes with widgets after ComfyUI frontend updates
+- No official fix merged as of December 2, 2025
+
 **Thanks to:**
 - ComfyUI community for reporting and discussing this issue
-- Vue.js documentation for error handling patterns
-- PrimeVue documentation for understanding $variant usage
+- Vue.js and PrimeVue teams for comprehensive documentation
+- All developers affected by this bug who provided stack traces and debugging info
 
 ---
 
